@@ -1,5 +1,3 @@
-import { component } from "../../../node_modules/vue/types/umd";
-
 export const tabs = [
   {
     key: "dimensions",

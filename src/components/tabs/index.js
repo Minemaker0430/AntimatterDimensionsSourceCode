@@ -42,6 +42,9 @@ import TimeDimensionsTab from "./time-dimensions/TimeDimensionsTab";
 import TimeStudiesTab from "./time-studies/TimeStudiesTab";
 import VTab from "./celestial-v/VTab";
 
+//modded tabs
+import UniversalLawsTab from "./universal-laws/UniversalLawsTab";
+
 const TabComponents = {
   AntimatterDimensionsTab,
   InfinityDimensionsTab,

@@ -1,22 +1,22 @@
 <script>
-import BreakInfinityButton from "./BreakInfinityButton";
-import InfinityUpgradeButton from "@/components/InfinityUpgradeButton";
+//import BreakInfinityButton from "./BreakInfinityButton";
+//import InfinityUpgradeButton from "@/components/InfinityUpgradeButton";
 
 export default {
   name: "UniversalLawsTab",
   components: {
-    BreakInfinityButton,
-    InfinityUpgradeButton
+    //BreakInfinityButton,
+    //InfinityUpgradeButton
   },
   data() {
     return {
-      isUnlocked: false
+      isUnlocked: true
     };
   },
   computed: {
     grid() {
       return [
-        [
+        /*[
           BreakInfinityUpgrade.totalAMMult,
           BreakInfinityUpgrade.currentAMMult,
           BreakInfinityUpgrade.galaxyBoost,
@@ -35,19 +35,19 @@ export default {
           BreakInfinityUpgrade.tickspeedCostMult,
           BreakInfinityUpgrade.dimCostMult,
           BreakInfinityUpgrade.ipGen
-        ]
+        ]*/
       ];
     }
   },
   methods: {
     update() {
-      this.isUnlocked = Autobuyer.bigCrunch.hasMaxedInterval;
+      //this.isUnlocked = Autobuyer.bigCrunch.hasMaxedInterval;
     },
     btnClassObject(column) {
-      return {
+      /*return {
         "l-infinity-upgrade-grid__cell": true,
         "o-infinity-upgrade-btn--multiplier": column === 3
-      };
+      };*/
     },
     timeDisplayShort(time) {
       return timeDisplayShort(time);
@@ -57,7 +57,7 @@ export default {
 </script>
 
 <template>
-  <div class="l-break-infinity-tab">
+  <!-- <div class="l-break-infinity-tab">
     <div v-if="!isUnlocked">
       Reduce the interval of Automatic Big Crunch Autobuyer to
       {{ format(0.1, 1, 1) }} seconds to unlock Break Infinity.
@@ -80,7 +80,7 @@ export default {
         />
       </div>
     </div>
-  </div>
+  </div> -->
 </template>
 
 <style scoped>
