@@ -1,3 +1,5 @@
+import { component } from "../../../node_modules/vue/types/umd";
+
 export const tabs = [
   {
     key: "dimensions",
@@ -492,6 +494,24 @@ export const tabs = [
         name: "Shop",
         symbol: "$",
         component: "ShopTab",
+        id: 0,
+        hidable: true
+      }
+    ]
+  },
+  {
+    key: "universes",
+    name: "Universes",
+    UIClass: "o-tab-btn--celestial",
+    hideAt: 3.0,
+    id: 11,
+    hidable: true,
+    subtabs: [
+      {
+        key: "univeral-laws",
+        name: "Universal Laws",
+        symbol: "O",
+        component: "UniversalLawsTab",
         id: 0,
         hidable: true
       }

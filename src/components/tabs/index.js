@@ -84,7 +84,8 @@ const TabComponents = {
   AlchemyTab,
   CelestialNavigationTab,
   ShopTab,
-  MultiplierBreakdownTab
+  MultiplierBreakdownTab,
+  UniversalLawsTab
 };
 
 export default TabComponents;
