@@ -57,6 +57,10 @@ export default {
 </script>
 
 <template>
+  <div>
+    Purchasing a Law makes its cost go up by 2 and all other Laws by 1. You can create a new universe every END Antimatter.
+  </div>
+  
   <!-- <div class="l-break-infinity-tab">
     <div v-if="!isUnlocked">
       Reduce the interval of Automatic Big Crunch Autobuyer to

@@ -1377,4 +1377,52 @@ export const normalAchievements = [
     checkRequirement: () => GameEnd.endState > END_STATE_MARKERS.GAME_END && !GameEnd.removeAdditionalEnd,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER
   },
+  {
+    id: 191,
+    name: "Universal Studio",
+    description: "Create a new Universe.",
+    checkEvent: GAME_EVENT.ACHIEVEMENT_EVENT_OTHER,
+  },
+  {
+    id: 192,
+    name: "Coming Soon...",
+    description: "???",
+    checkEvent: GAME_EVENT.ACHIEVEMENT_EVENT_OTHER,
+  },
+  {
+    id: 193,
+    name: "Coming Soon...",
+    description: "???",
+    checkEvent: GAME_EVENT.ACHIEVEMENT_EVENT_OTHER,
+  },
+  {
+    id: 194,
+    name: "Coming Soon...",
+    description: "???",
+    checkEvent: GAME_EVENT.ACHIEVEMENT_EVENT_OTHER,
+  },
+  {
+    id: 195,
+    name: "Coming Soon...",
+    description: "???",
+    checkEvent: GAME_EVENT.ACHIEVEMENT_EVENT_OTHER,
+  },
+  {
+    id: 196,
+    name: "Coming Soon...",
+    description: "???",
+    checkEvent: GAME_EVENT.ACHIEVEMENT_EVENT_OTHER,
+  },
+  {
+    id: 197,
+    name: "Coming Soon...",
+    description: "???",
+    checkEvent: GAME_EVENT.ACHIEVEMENT_EVENT_OTHER,
+  },
+  {
+    id: 198,
+    name: "Coming Soon...",
+    description: "???",
+    checkEvent: GAME_EVENT.ACHIEVEMENT_EVENT_OTHER,
+  }
 ];

@@ -9,6 +9,15 @@ import { GlyphTypes } from "./glyph-effects";
 // This is actually reassigned when importing saves
 // eslint-disable-next-line prefer-const
 window.player = {
+  //modded values
+  universes: DC.D0,
+  universalLaws: {
+    antimatterDim: DC.D0,
+    infinityDim: DC.D0,
+    timeDim: DC.D0
+  },
+
+  //vanilla values
   antimatter: DC.E1,
   dimensions: {
     antimatter: Array.range(0, 8).map(() => ({
